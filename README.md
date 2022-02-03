@@ -27,7 +27,7 @@ Usage: logpresso-firewall-ops [start|install|uninstall]
   * logpresso-firewall-ops.conf file will be created in the same directory which contains logpresso-firewall-ops binary.
   * FirewallOps uses `firewalld-cmd --state` to detect firewalld is running. If firewalld is not available, it fallback to iptables backend.
 * Review logpresso-firewall-ops.conf configuration.
-  * `[allowlist]` seciton contains default private network subnets to prevent accidental IP blocking like this:
+  * `[allowlist]` section contains default private network subnets to prevent accidental IP blocking like this:
     ```
     [allowlist]
     10.0.0.0/8
