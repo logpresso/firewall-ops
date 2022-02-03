@@ -12,7 +12,7 @@ Logpresso FirewallOps is a single binary command-line tool for iptables and fire
 
 ### Usage
 ```
-Logpresso Firewall Ops 0.1.0 (2022-01-31)
+Logpresso Firewall Ops 1.0.0 (2022-02-03)
 Usage: logpresso-firewall-ops [start|install|uninstall]
   start
   install [api-key] [http-proxy ip:port]
@@ -47,7 +47,7 @@ Usage: logpresso-firewall-ops [start|install|uninstall]
 * Stop systemd service first.
   * `# systemctl stop logpresso-firewall-ops`
 * Run FirewallOps with uninstall option.
-  * '# ./logpresso-firewall-ops uninstall`
+  * `# ./logpresso-firewall-ops uninstall`
   * It will delete systemd file, config file, and reload systemd daemon.
 
 
